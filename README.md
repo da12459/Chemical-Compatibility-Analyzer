@@ -6,7 +6,7 @@
 
 ## Overview
 
-Chemical Compatibility Analyzer is a locally deployable chemical safety screening tool developed to support preliminary compatibility assessments during new chemical process development, raw-material substitution, chemical storage planning, and laboratory operations.
+Chemical Compatibility Analyzer is a locally deployable chemical safety screening tool developed for preliminary compatibility assessment during chemical process development, raw-material substitution, chemical storage planning, and laboratory operations.
 
 The software integrates chemical identification, automated reactive-group assignment, and compatibility evaluation based on an established 68-category reactive-group compatibility matrix.
 
@@ -23,31 +23,59 @@ The software integrates chemical identification, automated reactive-group assign
 
 ## Download and Installation
 
-**Latest release:** [Chemical Compatibility Analyzer v0.1.0](https://github.com/da12459/Chemical-Compatibility-Analyzer/releases/tag/v0.1.0)
+**Latest Release:** [Chemical Compatibility Analyzer v0.1.0](https://github.com/da12459/Chemical-Compatibility-Analyzer/releases/tag/v0.1.0)
 
-Download the Windows executable from the **Assets** section of the release page. The distributed version is intended to run without separately installing the original CSS, JavaScript, or Go source files.
+Download the Windows 64-bit executable from the Assets section of the release page.
+
+The distributed executable contains the packaged software components and does not require the original CSS, JavaScript, or Go development files to be placed alongside it.
 
 ## Basic Usage
 
-Enter chemical names or CAS Registry Numbers, or import supported MOL files. Review the automatically identified reactive-group categories and make manual adjustments when necessary.
+1. Enter chemical names or CAS Registry Numbers, or import supported MOL files.
+2. Review the automatically identified reactive-group categories.
+3. Manually select, add, or remove categories when necessary.
+4. Perform compatibility analysis for the selected chemicals.
+5. Examine the chemical compatibility assessment matrix and the underlying group-pair results.
+6. Export the assessment matrix to Excel when needed.
 
-After selecting the chemicals, perform compatibility analysis and examine the resulting chemical compatibility assessment matrix. Detailed group-pair results can be inspected, and the assessment matrix can be exported to Excel.
+## Assessment Method
+
+The software uses an established 68-category reactive-group compatibility matrix as the basis for qualitative compatibility screening.
+
+For each chemical pair, all assigned reactive-group combinations are evaluated, and the resulting compatibility alerts are summarized in a chemical compatibility assessment matrix.
+
+The system supports automated reactive-group identification and optional manual adjustment.
+
+## Evaluation
+
+The associated research reports 90 chemical-contact cases compiled from publicly accessible reports and literature.
+
+The software automatically identified reactive-group categories and performed compatibility screening, generating 81 "Incompatible" and 9 "Caution Required" alerts.
+
+These cases demonstrate the integrated software workflow but do not independently establish automated identification accuracy or quantitative predictions of real-world reaction consequences.
 
 ## Scope and Limitations
 
-This software provides qualitative preliminary compatibility screening. Results are based on reactive-group assignments and established group compatibility relationships.
+The software is intended for qualitative preliminary compatibility screening.
 
-A "Compatible" result does not guarantee safe mixing or storage. The software does not quantitatively predict reaction products, heat release, pressure buildup, or accident severity.
+A "Compatible" result does not guarantee that chemical mixing, processing, or storage is safe.
 
-Users should consider chemical-specific safety data sheets, concentrations, physical forms, operating conditions, and professional safety assessments before making operational decisions.
+The software does not quantitatively predict reaction products, heat release, pressure buildup, accident probability, or accident severity.
+
+Users should consider chemical-specific safety data sheets, concentration, physical form, operating conditions, and professional safety assessments before making operational decisions.
 
 ## Software Availability and Citation
 
-The Windows executable is publicly available through GitHub and archived on Zenodo.
+**GitHub Repository:**  
+https://github.com/da12459/Chemical-Compatibility-Analyzer
 
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.23491523
+**GitHub Release:**  
+https://github.com/da12459/Chemical-Compatibility-Analyzer/releases/tag/v0.1.0
 
-Please cite the archived software version when using this tool in academic publications.
+**Zenodo DOI:**  
+https://doi.org/10.5281/zenodo.23491523
+
+Researchers using this software should cite the corresponding Zenodo software record.
 
 ## License and Copyright
 
@@ -55,6 +83,8 @@ The software is distributed under the [Chemical Compatibility Analyzer Freeware 
 
 Copyright © 2026 Xiangjuan Qi. All rights reserved.
 
-The executable may be downloaded and used free of charge under the stated license terms. The complete computational-engine source code is not included in this release. Modification and redistribution require permission as specified in the license.
+The software executable may be downloaded and used free of charge under the stated license terms.
+
+The complete computational-engine source code is not included in this release. Modification and redistribution require permission as specified in the license.
 
 This is a publicly available executable software release, not a complete open-source code distribution.
