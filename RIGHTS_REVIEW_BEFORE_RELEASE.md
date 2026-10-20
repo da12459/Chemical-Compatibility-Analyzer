@@ -39,23 +39,7 @@ Where required, citations, notices, and permissions should be retained.
 
 The rights of third-party content are not automatically transferred to the software copyright holder.
 
-## 5. Compliance Review Checklist
-
-- [x] Software copyright holder identified.
-- [x] Public download and free use authorized by the copyright holder.
-- [x] Public software license documented.
-- [x] GitHub release published.
-- [x] Zenodo software DOI assigned.
-- [x] Executable identity and SHA-256 recorded.
-- [ ] Third-party chemical database redistribution rights fully documented.
-- [ ] Compatibility matrix redistribution rights fully documented.
-- [ ] Included graphical assets and third-party software licenses fully reviewed.
-- [ ] Final Windows functional validation evidence archived.
-- [ ] Executable checked for confidential data, credentials, and embedded secrets.
-
-Unchecked items indicate that completed review evidence has not yet been recorded in this document.
-
-## 6. Safety Limitations
+## 5. Safety Limitations
 
 The software is intended for preliminary qualitative chemical compatibility screening.
 
@@ -63,7 +47,7 @@ It does not provide quantitative predictions of reaction products, heat release,
 
 Users remain responsible for evaluating chemical-specific information, operating conditions, safety data sheets, and applicable safety requirements.
 
-## 7. Release Information
+## 6. Release Information
 
 GitHub Repository: https://github.com/da12459/Chemical-Compatibility-Analyzer
 
