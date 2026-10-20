@@ -1,0 +1,11 @@
+Chemical Compatibility Analyzer Freeware License
+
+Copyright © 2026 Xiangjuan Qi. All rights reserved.
+
+Permission is granted to any person to download, install, and use the unmodified Chemical Compatibility Analyzer executable free of charge for academic, educational, research, and industrial purposes.
+
+Modification or redistribution of the software requires prior written permission from the copyright holder, except where otherwise permitted by applicable law.
+
+The software is provided "as is", without warranty of any kind. Its results are intended for preliminary chemical compatibility screening and do not replace professional chemical safety assessment or experimental verification.
+
+The source code is not included in this software release.
